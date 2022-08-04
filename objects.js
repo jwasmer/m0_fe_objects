@@ -109,3 +109,32 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emails = [
+  {
+    sender: "jameswasmer@gmail.com",
+    recipient: "info@turing.com",
+    subject: "Questions about Mod 0",
+    received: true,
+    opened: true,
+    archived: false
+  },
+  {
+    sender: "jameswasmer@gmail.com",
+    recipient: "info@turing.com",
+    subject: "More questions about Mod 0",
+    received: true,
+    opened: true,
+    archived: true
+  },
+  {
+    sender: "jameswasmer@gmail.com",
+    recipient: "info@turing.com",
+    subject: "One more list of questions about Mod 0!",
+    received: true,
+    opened: false,
+    archived: true
+  }
+]
+
+console.log(emails)
